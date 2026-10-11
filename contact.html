@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Desi Rasoi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <a href="index.html" class="logo">🍛 Desi <span>Rasoi</span></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+  <nav id="navLinks">
+    <a href="index.html">Home</a><a href="about.html">About Us</a>
+    <a href="menu.html">Our Menu</a><a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="page-banner">
+    <p class="eyebrow">WE WOULD LOVE TO SEE YOU</p>
+    <h1>Contact <span>Desi Rasoi</span></h1>
+    <p>Have a question or want to enquire about a table?</p>
+  </section>
+
+  <section class="section">
+    <div class="contact-grid">
+      <div class="contact-details">
+        <h3>Visit Our Restaurant</h3>
+        <p><strong>Address:</strong> Gotri krunal char rasta vadodara gujarat.</p>
+        <p><strong>Opening Hours:</strong> 8.00AM to 2.00PM and 4.00pm to 10.00pm </p>
+        <p><strong>Phone:</strong> 9328540992</p>
+        <a class="btn" id="whatsappLink" href="#">Enquire on WhatsApp</a>
+      </div>
+
+      <form id="contactForm" class="contact-form">
+        <label for="customerName">Your Name</label>
+        <input id="customerName" name="name" type="text" placeholder="Enter your name" required>
+
+        <label for="customerPhone">Phone Number</label>
+        <input id="customerPhone" name="phone" type="tel" placeholder="Enter your phone number" required>
+
+        <label for="customerMessage">Your Message</label>
+        <textarea id="customerMessage" name="message" rows="4" placeholder="Table booking or enquiry..." required></textarea>
+
+        <button type="submit" class="btn">Send Enquiry on WhatsApp</button>
+        <p id="formMessage" class="form-message" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <a href="index.html" class="logo">🍛 Desi <span>Rasoi</span></a>
+  <p>© <span id="year"></span> Desi Rasoi. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

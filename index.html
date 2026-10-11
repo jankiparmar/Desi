@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desi Rasoi | Authentic Indian Restaurant</title>
+  <meta name="description" content="Enjoy delicious Indian food, traditional thalis, Punjabi dishes and biryani at Desi Rasoi.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <a href="#home" class="logo">🍛 Desi <span>Rasoi</span></a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+
+    <nav id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#menu">Our Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">WELCOME TO DESI RASOI</p>
+        <h1>The Taste of <span>Authentic India</span></h1>
+        <p>Delicious flavours, traditional recipes and the warmth of Indian hospitality.</p>
+        <a href="#menu" class="btn">Explore Our Menu</a>
+        <a href="#contact" class="btn btn-outline">Book a Table</a>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=900&q=85"
+             alt="Traditional Indian thali">
+      </div>
+      <div class="about-content">
+        <p class="eyebrow">OUR STORY</p>
+        <h2>Made with Love, Served with Tradition</h2>
+        <p>At Desi Rasoi, we celebrate the rich flavours of Indian cuisine. From comforting home-style meals to delicious restaurant favourites, every dish is inspired by the warmth of Indian kitchens.</p>
+        <p>Come with family and friends and enjoy a memorable dining experience.</p>
+        <a href="#menu" class="btn">Discover Our Food</a>
+      </div>
+    </section>
+
+    <section class="section menu-section" id="menu">
+      <div class="section-heading">
+        <p class="eyebrow">FRESH & DELICIOUS</p>
+        <h2>Our Special Menu</h2>
+        <p>Favourite Indian dishes prepared with care.</p>
+      </div>
+
+      <div class="filters">
+        <button class="filter active" data-category="all">All</button>
+        <button class="filter" data-category="thali">Thali</button>
+        <button class="filter" data-category="punjabi">Punjabi</button>
+        <button class="filter" data-category="rice">Rice & Biryani</button>
+      </div>
+
+      <div class="menu-grid">
+        <article class="food-card" data-category="thali">
+          <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=700&q=80" alt="Indian thali">
+          <div class="food-info">
+            <h3>Special Gujarati Thali</h3>
+            <p>A traditional selection of Indian favourites.</p>
+            <strong>₹199</strong>
+          </div>
+        </article>
+
+        <article class="food-card" data-category="punjabi">
+          <img src="https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?auto=format&fit=crop&w=700&q=80" alt="Paneer curry">
+          <div class="food-info">
+            <h3>Paneer Butter Masala</h3>
+            <p>Rich, creamy and full of flavour.</p>
+            <strong>₹220</strong>
+          </div>
+        </article>
+
+        <article class="food-card" data-category="rice">
+          <img src="image/birayni.jpg" alt="Biryani rice">
+          <div class="food-info">
+            <h3>Veg Biryani</h3>
+            <p>Fragrant rice with aromatic Indian spices.</p>
+            <strong>₹180</strong>
+          </div>
+        </article>
+
+        <article class="food-card" data-category="punjabi">
+          <img src="https://images.unsplash.com/photo-1626500155537-93690c24099e?auto=format&fit=crop&w=700&q=80" alt="Indian curry and naan">
+          <div class="food-info">
+            <h3>Dal Makhani</h3>
+            <p>A comforting classic, slow-cooked style.</p>
+            <strong>₹190</strong>
+          </div>
+        </article>
+
+        <article class="food-card" data-category="punjabi">
+          <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=700&q=80" alt="Indian samosas">
+          <div class="food-info">
+            <h3>Punjabi Samosa</h3>
+            <p>Crispy pastry with a spiced potato filling.</p>
+            <strong>₹60</strong>
+          </div>
+        </article>
+
+        <article class="food-card" data-category="thali">
+          <img src="image/roti.jpg" alt="Indian flatbread and curry">
+          <div class="food-info">
+            <h3>Roti & Curry Combo</h3>
+            <p>Fresh Indian bread served with curry.</p>
+            <strong>₹150</strong>
+          </div>
+        </article>
+      </div>
+      <p class="menu-note">Sample menu and prices — update these to match your restaurant.</p>
+    </section>
+
+    <section class="gallery-section section" id="gallery">
+      <div class="section-heading">
+        <p class="eyebrow">A FEAST FOR YOUR EYES</p>
+        <h2>Food Gallery</h2>
+      </div>
+      <div class="gallery-grid">
+        <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=700&q=80" alt="Indian curry">
+        <img src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=700&q=80" alt="Indian vegetarian food">
+        <img src="https://images.unsplash.com/photo-1567337710282-00832b415979?auto=format&fit=crop&w=700&q=80" alt="Indian food platter">
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">WE WOULD LOVE TO SEE YOU</p>
+        <h2>Visit Desi Rasoi</h2>
+        <p>Questions or want to enquire about a table? Send us a message.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-details">
+          <h3>Contact Details</h3>
+          <p><strong>Address:</strong> Gotri krunal char rasta vadodara gujarat.</p>
+          <p><strong>Opening Hours:</strong>8.00AM to 2.00PM and 4.00pm to 10.00pm</p>
+          <p><strong>Phone:</strong> 2354698752</p>
+          <a class="btn" id="whatsappLink" href="#contact">Enquire on WhatsApp</a>
+        </div>
+
+        <form id="contactForm" class="contact-form">
+          <label for="customerName">Your Name</label>
+          <input id="customerName" name="name" type="text" placeholder="Enter your name" required>
+
+          <label for="customerPhone">Phone Number</label>
+          <input id="customerPhone" name="phone" type="tel" placeholder="Enter your phone number" required>
+
+          <label for="customerMessage">Your Message</label>
+          <textarea id="customerMessage" name="message" rows="4" placeholder="Table booking or enquiry..." required></textarea>
+
+          <button type="submit" class="btn">Send Enquiry</button>
+          <p id="formMessage" class="form-message" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="logo">🍛 Desi <span>Rasoi</span></a>
+    <p>Bringing the authentic taste of India to your table.</p>
+    <p>© <span id="year"></span> Desi Rasoi. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
