@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Menu | Desi Rasoi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <a href="index.html" class="logo">🍛 Desi <span>Rasoi</span></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+  <nav id="navLinks">
+    <a href="index.html">Home</a><a href="about.html">About Us</a>
+    <a href="menu.html">Our Menu</a><a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="page-banner">
+    <p class="eyebrow">FRESH & DELICIOUS</p>
+    <h1>Our Special <span>Menu</span></h1>
+    <p>Favourite Indian dishes prepared with care.</p>
+  </section>
+
+  <section class="section menu-section">
+    <div class="filters">
+      <button class="filter active" data-category="all">All</button>
+      <button class="filter" data-category="thali">Thali</button>
+      <button class="filter" data-category="punjabi">Punjabi</button>
+      <button class="filter" data-category="rice">Rice & Biryani</button>
+    </div>
+
+    <div class="menu-grid">
+      <article class="food-card" data-category="thali">
+        <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=700&q=80" alt="Gujarati thali">
+        <div class="food-info"><h3>Special Gujarati Thali</h3><p>A traditional selection of Indian favourites.</p><strong>₹199</strong></div>
+      </article>
+
+      <article class="food-card" data-category="punjabi">
+        <img src="https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?auto=format&fit=crop&w=700&q=80" alt="Paneer curry">
+        <div class="food-info"><h3>Paneer Butter Masala</h3><p>Rich, creamy and full of flavour.</p><strong>₹220</strong></div>
+      </article>
+
+      <article class="food-card" data-category="rice">
+        <img src="image/birayni.jpg" alt="Vegetable biryani">
+        <div class="food-info"><h3>Veg Biryani</h3><p>Fragrant rice with aromatic spices.</p><strong>₹180</strong></div>
+      </article>
+
+      <article class="food-card" data-category="punjabi">
+        <img src="https://images.unsplash.com/photo-1626500155537-93690c24099e?auto=format&fit=crop&w=700&q=80" alt="Dal makhani">
+        <div class="food-info"><h3>Dal Makhani</h3><p>A comforting Indian classic.</p><strong>₹190</strong></div>
+      </article>
+
+      <article class="food-card" data-category="punjabi">
+        <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=700&q=80" alt="Samosas">
+        <div class="food-info"><h3>Punjabi Samosa</h3><p>Crispy pastry with a spiced potato filling.</p><strong>₹60</strong></div>
+      </article>
+
+      <article class="food-card" data-category="thali">
+        <img src="image/roti.jpg" alt="Roti and curry">
+        <div class="food-info"><h3>Roti & Curry Combo</h3><p>Fresh Indian bread served with curry.</p><strong>₹150</strong></div>
+      </article>
+    </div>
+    <p class="menu-note">Sample menu and prices. Update these to match your restaurant.</p>
+  </section>
+</main>
+
+<footer class="footer">
+  <a href="index.html" class="logo">🍛 Desi <span>Rasoi</span></a>
+  <p>© <span id="year"></span> Desi Rasoi. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
